@@ -1,110 +1,134 @@
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-p {
-    color: #444;
-}
-
-button:focus {
-    outline: 0;
-}
-
-.container {
-    max-width: 700px;
+/* Body styles */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 900px;
     margin: 0 auto;
-    padding: 100px 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #1877f2;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px 20px 0;
+    display: inline-block;
+    vertical-align: middle;
     text-align: center;
-    background-color: #f2f2f2;
-    background-image: url("background-https://summalinguae.com/wp-content/uploads/2021/05/Where-to-Find-Speech-Recognition-Data-5-Options-to-ConsiderV02.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.container h1 {
+    width: 200px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #3b5998;
+  }
+  
+  #start-record-btn {
+    background-color: #1fca39;
+    margin-right: 10px;
+    width: 220px;
+  }
+  
+  #pause-record-btn {
+    background-color: #ff3333;
+    width: 160px;
+  }
+  
+  #save-note-btn {
+    background-color: #1877f2;
+    width: 160px;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
     margin-bottom: 20px;
-    color: #333;
-    font-size: 42px;
-}
-
-.page-description {
-    font-size: 1.2rem;
-    margin: 0 auto;
-    color: #555;
-    margin-bottom: 40px;
-}
-
-.tz-link {
-    font-size: 1em;
-    color: #1da7da;
-    text-decoration: none;
-}
-
-.no-browser-support {
-    display: none;
-    font-size: 1.2rem;
-    color: #e64427;
-    margin-top: 35px;
-}
-
-.app {
-    margin: 40px auto;
-}
-
-#note-textarea {
-    margin: 20px 0;
-}
-
-#recording-instructions {
-    margin: 15px auto 60px;
-}
-
-#notes {
-    padding-top: 20px;
-}
-
-.note .header {
-    font-size: 0.9em;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #1877f2;
+  }
+  
+  /* List styles */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .note {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .note .header {
+    font-size: 14px;
     color: #888;
     margin-bottom: 10px;
-}
-
-.note .delete-note,
-.note .listen-note {
-    text-decoration: none;
-    margin-left: 15px;
-}
-
-.note .content {
-    margin-bottom: 40px;
-}
-
-button {
-    background-color: #1877f2;
-    color: white;
-    border: none;
-    padding: 14px 28px;
-    font-size: 20px;
-    border-radius: 30px;
+  }
+  
+  .note .content {
+    font-size: 16px;
+  }
+  
+  .no-notes {
+    font-size: 16px;
+    color: #888;
     text-align: center;
-    display: inline-block;
-    margin-top: 40px;
-    transition-duration: 0.4s;
-}
-
-button:hover {
-    background-color: #1465c0;
-    cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 50px 25px;
-    }
-
-    button {
-        margin-bottom: 10px;
-    }
-}
+  }
+  
+  /* Link styles */
+  a {
+    color: #1877f2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
