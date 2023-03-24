@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("your-image-https://www.google.com/url?sa=i&url=https%3A%2F%2Fnordicapis.com%2F5-best-speech-to-text-apis%2F&psig=AOvVaw11-hMCpFnp7vqVSnyz9HGQ&ust=1679753303839000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJik--ne9P0CFQAAAAAdAAAAABAE-here");
+    background-image: url("https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
   }
@@ -10,7 +10,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #688ec399;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   }
   
@@ -19,7 +19,7 @@ body {
     font-size: 36px;
     font-weight: bold;
     margin: 0 0 10px;
-    color: #1877f2;
+    color: #091b33;
   }
   
   h3 {
@@ -128,7 +128,7 @@ body {
   
   /* Link styles */
   a {
-    color: #1877f2;
+    color: #076499;
     text-decoration: none;
   }
   
