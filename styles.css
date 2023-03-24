@@ -82,6 +82,7 @@ body {
     font-size: 16px;
     margin-bottom: 20px;
     box-sizing: border-box;
+    background-color: #98e3fe;
   }
   
   input[type="text"]:focus,
@@ -107,7 +108,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
+    background-color: #98e3fe;
   }
   
   .note .header {
