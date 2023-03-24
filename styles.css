@@ -16,15 +16,22 @@ button:focus {
     margin: 0 auto;
     padding: 100px 50px;
     text-align: center;
+    background-color: #f4f4f4;
+    background-image: url("https://summalinguae.com/wp-content/uploads/2021/05/Where-to-Find-Speech-Recognition-Data-5-Options-to-ConsiderV02.jpg-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container h1 {
     margin-bottom: 20px;
+    color: #333;
 }
 
 .page-description {
     font-size: 1.1rem;
     margin: 0 auto;
+    color: #555;
 }
 
 .tz-link {
@@ -80,13 +87,4 @@ button:focus {
     button {
         margin-bottom: 10px;
     }
-
-}   
-
-
-
-/* -- Demo ads -- */
-
-@media (max-width: 1200px) {
-    #bsaHolder{ display:none;}
 }
