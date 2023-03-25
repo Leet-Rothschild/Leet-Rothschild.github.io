@@ -129,7 +129,8 @@ body {
   
   /* Link styles */
   a {
-    color: #076499;
+    font-size: 22px;
+    color: #1d1da9;
     text-decoration: none;
   }
   
